@@ -14,11 +14,12 @@ Picking the right commerce solution is not easy and dpends on what you're sellin
 
 1) The first step is to sign up for a [PolygonPay](https://app.polygonpay.com/signup) account.
 
-2) The second step is to include the following `<script>` tags in your HTML `<head>`.
+2) The second step is to include the following `<script>` tags in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.1-alpha/polygonpay.min.js"></script>
 ```
+
 3) The last step is to include the followinf `<div>` tag in the `<body>` of your HTML document.
 ```html
 <div hidden id="polygonpay" data-api-key="<YOUR_API_KEY>"></div>
