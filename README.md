@@ -21,7 +21,7 @@
 ```
 *Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
-After you complete steps 1, 2 and 3 your HTML document should look like the example code below.
+After you complete steps 1, 2 and 3 your HTML document should look like the example code below. Please, feel free to copy the code below if you want a simple starting point for your HTML document.
 ```html
 <!DOCTYPE html>
 <html lang="en">
