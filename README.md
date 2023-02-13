@@ -21,6 +21,27 @@
 ```
 *Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
+After you complete steps 1, 2 and 3 your HTML document should look like the example code below.
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.1-alpha/polygonpay.js"></script>
+</head>
+
+<body>
+    <div hidden id="polygonpay" data-api-key="<YOUR_API_KEY>"></div>
+</body>
+
+</html>
+```
+
 🎉 **Congratulations!** 🎉
 
 You have successfully installed PolygonPay and you will now be able to create your eCommerce store quickly and easily.
