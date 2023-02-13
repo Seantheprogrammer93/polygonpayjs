@@ -32,7 +32,7 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.1-alpha/polygonpay.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.1-alpha/polygonpay.min.js"></script>
 </head>
 
 <body>
