@@ -1,5 +1,5 @@
 # ⚠️ WARNING ⚠️
-**PolygonPay, polygonpay.js, and styles.css are all highly experimental and not ready to be implemented in a production or development environment. Please do not install PolygonPay as outlined in this README becuse it will not work as specified.**
+**PolygonPay and polygonpay.js are highly experimental pre-release alpha versions and not ready to be implemented in a production environment in any way, shape, or form yet.
 
 ---
 
