@@ -24,7 +24,7 @@ Picking the right commerce solution is not easy and dpends on what you're sellin
 ```html
 <div hidden id="polygonpay" data-api-key="<YOUR_API_KEY>"></div>
 ```
-*Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). We strongly recommend using the hidden attributt in your `<div>` for security purposes.*
+*Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
 🎉 **Congratulations** 🎉
 
