@@ -3,11 +3,6 @@
 
 ---
 
-### Thesis
-Picking the right commerce solution is not easy and dpends on what you're selling and how you want to sell it, you should take some time to explore the pros and cons of as many commerce solutions as possible. Whether you're a professional or hobbyist developer you probably want something that's fast and easy to integrate, that's where PolygonPay comes in. PolygonPay is a customizable headless commerce solution for developers and is designed to be a fast and easy to integrate.
-
----
-
 ### PolygonPay Installation
 
 **Please go to our [documentation](https://docs.polygonpay.com) for more detailed installation and usage instructions**
