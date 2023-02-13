@@ -27,6 +27,7 @@ Picking the right commerce solution is not easy and dpends on what you're sellin
 *Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
 🎉 **Congratulations!** 🎉
+
 You have successfully installed PolygonPay and you will now be able to create your eCommerce store quickly and easily.
 
 ---
