@@ -20,7 +20,7 @@ Picking the right commerce solution is not easy and dpends on what you're sellin
 <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.1-alpha/polygonpay.min.js"></script>
 ```
 
-3) The last step is to include the followinf `<div>` tag in the `<body>` of your HTML document.
+3) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
 ```html
 <div hidden id="polygonpay" data-api-key="<YOUR_API_KEY>"></div>
 ```
