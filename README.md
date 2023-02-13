@@ -12,7 +12,7 @@ Picking the right commerce solution is not easy and dpends on what you're sellin
 
 **Please go to our [documentation](https://docs.polygonpay.com) for more detailed installation and usage instructions**
 
-1) The first step is to sign up for a [PolygonPay](https://app.polygonpay.com/signup) account.
+1) The first step is to sign up for a [PolygonPay](https://app.polygonpay.com/signup) account and obtain an API key.
 
 2) The second step is to include the following `<script>` tags in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS.
 ```html
@@ -26,9 +26,8 @@ Picking the right commerce solution is not easy and dpends on what you're sellin
 ```
 *Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
-🎉 **Congratulations** 🎉
-
-You have successfully installed PolygonPay. Next, be sure to sign up for a PolygonPay account at https://polygonpay.com to get an API key and start using PolygonPay to collect payments for your eCommerce store.
+🎉 **Congratulations!** 🎉
+You have successfully installed PolygonPay and you will now be able to create your eCommerce store quickly and easily.
 
 ---
 
