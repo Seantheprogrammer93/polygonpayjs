@@ -1,5 +1,5 @@
 # ⚠️ WARNING ⚠️
-**PolygonPay and polygonpay.js are highly experimental pre-release alpha versions and not ready to be implemented in a production environment in any way, shape, or form yet.
+**PolygonPay and polygonpay.js are highly experimental pre-release alpha versions and not ready to be implemented in a production environment in any way, shape, or form yet.**
 
 ---
 
