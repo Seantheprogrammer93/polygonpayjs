@@ -17,7 +17,7 @@ Picking the right commerce solution is not easy and dpends on what you're sellin
 2) The second step is to include the following `<script>` tags in your HTML `<head>`.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs/polygonpay.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@1/polygonpay.min.js"></script>
 ```
 3) The last step is to include the followinf `<div>` tag in the `<body>` of your HTML document.
 ```html
