@@ -18,7 +18,7 @@
 
 3) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
 ```html
-<div hidden id="polygonpay" class="polygonpayjs" data-api-key="<YOUR_API_KEY>"></div>
+<div id="polygonpay" class="polygonpayjs" data-api-key="<YOUR_API_KEY>"></div>
 ```
 *Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
