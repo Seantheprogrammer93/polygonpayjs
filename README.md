@@ -12,7 +12,8 @@
 2) The second step is to include the following `<script>` tags in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.1-alpha/polygonpay.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.2-alpha/polygonpay.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.2-alpha/style.css">
 ```
 
 3) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
@@ -37,7 +38,17 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
 </head>
 
 <body>
-    <div hidden id="polygonpay" data-api-key="<YOUR_API_KEY>"></div>
+    <div id="polygonpay" class="polygonpayjs" data-api-key="1"></div>
+
+    <button class="polygonpay-add-item" data-title="Hat" data-description="This is a hat" data-price="15.79"
+        data-url="https://example.com/hat" data-imageSrc="https://example.com/hat.png">
+        Add to Cart
+    </button>
+
+    <button class="polygonpay-add-item" data-title="Shirt" data-description="This is a shirt" data-price="18.79"
+        data-url="https://example.com/shirt" data-imageSrc="https://example.com/shirt.png">
+        Add to Cart
+    </button>
 </body>
 
 </html>
