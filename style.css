@@ -130,5 +130,5 @@
     }
 
     .show-modal {
-        display: block;
+        display: flex;
     }
