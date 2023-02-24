@@ -12,7 +12,7 @@
 2) The second step is to include the following `<script>` tags in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.2-alpha/polygonpay.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpay.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.2-alpha/style.css">
 ```
 
