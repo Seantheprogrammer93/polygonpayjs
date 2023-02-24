@@ -33,8 +33,8 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.2-alpha/polygonpay.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v1.0.2-alpha/style.css">
+    <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpay.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/style.css">
 </head>
 
 <body>
