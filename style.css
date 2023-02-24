@@ -1,134 +1,146 @@
-    .polygonpayjs {
-        display: none;
+    @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+    :root {
+        --primaryColor: black;
+        --mainWhite: #fff;
+        --mainBlack: #222;
+        --mainGrey: #ececec;
+        --mainSpacing: 0.1rem;
+        --mainTransition: all 0.3s linear;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+    }
+
+    .banner-btn {
+        padding: 1rem 3rem;
+        text-transform: uppercase;
+        letter-spacing: var(--mainSpacing);
+        font-size: 1rem;
+        background: var(--primaryColor);
+        color: white;
+        border: 1px solid var(--primaryColor);
+        transition: var(--mainTransition);
+        cursor: pointer;
+    }
+
+    .banner-btn:hover {
+        background: transparent;
+        color: var(--primaryColor);
+    }
+
+    .polygon-pay-cart {
         position: fixed;
-        z-index: 1;
-        padding-top: 100px;
-        left: 0;
         top: 0;
+        right: 0;
         width: 100%;
         height: 100%;
-        overflow: auto;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.4);
+        overflow: scroll;
+        z-index: 9999;
+        background: rgb(231, 226, 221);
+        padding: 1.5rem;
+        transition: var(--mainTransition);
+        transform: translateX(100%);
     }
 
-    .modal-content {
-        background-color: #fefefe;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
+    .showpolygon-pay-cart {
+        transform: translateX(0);
     }
 
-    .close {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
+    .transparentBcg {
+        visibility: visible;
     }
 
-    .close:hover,
-    .close:focus {
-        color: #000;
-        text-decoration: none;
+    @media screen and (min-width: 768px) {
+        .polygon-pay-cart {
+            width: 30vw;
+            min-width: 450px;
+        }
+    }
+
+    .close-polygon-pay-cart {
+        font-size: 1.7rem;
         cursor: pointer;
     }
 
-    .cart-row {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 20px;
+    .close-polygon-pay-cart:hover {
+        color: red;
     }
 
-    .cart-item {
-        width: 30%;
+    .polygon-pay-cart h2 {
+        text-transform: capitalize;
+        text-align: center;
+        letter-spacing: var(--mainSpacing);
+        margin-bottom: 2rem;
     }
 
-    .cart-price {
-        width: 20%;
+    .duplicate-item-in-cart {
+        text-transform: capitalize;
+        text-align: center;
+        letter-spacing: var(--mainSpacing);
+        margin-bottom: 2rem;
+        color: red;
     }
 
-    .cart-quantity {
-        width: 20%;
-    }
-
-    .cart-url {
-        width: 20%;
-    }
-
-    .cart-column {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .cart-item-title {
-        font-size: 1.2em;
-        font-weight: bold;
-    }
-
-    .cart-price {
-        font-size: 1.2em;
-        font-weight: bold;
-    }
-
-    .cart-url {
-        font-size: 1.2em;
-        font-weight: bold;
-    }
-
-    .cart-quantity {
-        font-size: 1.2em;
-        font-weight: bold;
-    }
-
-    .cart-quantity-input {
-        width: 40px;
-    }
-
-    .cart-total {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+    .polygon-pay-cart-item {
+        display: grid;
         align-items: center;
-        margin-top: 20px;
-        font-size: 1.4em;
-        font-weight: bold;
+        grid-template-columns: auto 1fr auto;
+        grid-column-gap: 1.5rem;
+        margin: 1.5rem 0;
     }
 
-    .cart-total-title {
-        margin-right: 20px;
+    .polygon-pay-cart-item img {
+        width: 75px;
+        height: 75px;
     }
 
-    .btn {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #007bff;
-        color: #fff;
-        font-size: 1.2em;
+    .polygon-pay-cart-item h4 {
+        font-size: 0.85rem;
+        text-transform: capitalize;
+        letter-spacing: var(--mainSpacing);
+    }
+
+    .polygon-pay-cart-item h5 {
+        margin: 0.5rem 0;
+        letter-spacing: var(--mainSpacing);
+    }
+
+    .item-amount {
+        text-align: center;
+    }
+
+    .remove-item {
+        color: grey;
         cursor: pointer;
     }
 
-    .btn:hover {
-        background-color: #0069d9;
+    .remove-item:hover {
+        color: red
     }
 
-    .btn-danger {
-        background-color: #dc3545;
+    .fa-chevron-up,
+    .fa-chevron-down {
+        color: black;
+        cursor: pointer;
     }
 
-    .btn-danger:hover {
-        background-color: #bd2130;
+    .fa-chevron-up:hover,
+    .fa-chevron-down:hover {
+        color: white;
     }
 
-    .btn-primary {
-        background-color: #007bff;
+    .polygon-pay-cart-footer {
+        margin-top: 2rem;
+        letter-spacing: var(--mainSpacing);
+        text-align: center;
     }
 
-    .btn-primary:hover {
-        background-color: #0069d9;
-    }
-
-    .show-modal {
-        display: flex;
+    .polygon-pay-cart-footer h3 {
+        text-transform: capitalize;
+        margin-bottom: 1rem;
     }
