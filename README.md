@@ -13,7 +13,7 @@
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpay.min.js"></script>
-<link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.min.css">
+<link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.css">
 ```
 
 3) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
@@ -33,7 +33,7 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpay.min.js"></script>
-    <link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.min.css">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.css">
 </head>
 
 <body>
