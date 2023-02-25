@@ -9,18 +9,17 @@
 
 1) The first step is to sign up for a [PolygonPay](https://app.polygonpay.com/signup) account and obtain an API key.
 
-2) The second step is to include the following `<script>` tags in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
+2) The second step is to include the following two `<script>` tags and the one `<link>` tag in your HTML `<head>`. In order to optimize performance you should implement the minified versions of jQuery and polygonpayJS just like the ones below.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpay.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.min.css">
 ```
 
 3) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
 ```html
 <div class="polygonpayjs"></div>
 ```
-*Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
 After you complete steps 1, 2 and 3 your HTML document should look like the example code below. Please, feel free to copy the code below if you want a simple starting point for your HTML document.
 ```html
@@ -34,7 +33,7 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpay.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Seantheprogrammer93/polygonpayjs@v2.0.0-alpha/polygonpayjs-style.min.css">
 </head>
 
 <body>
@@ -44,7 +43,7 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
     Add to Cart
     </button>
 
-    <button class="button-add" data-title="Large Dildo" data-description="This is a DILDO" data-price="1000" data-url="https://example.com/shirt" data-imageSrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.vg247.com%2Fcurrent%2F2011%2F11%2Fsaintsrowthethird-penetrator.jpg&f=1&nofb=1&ipt=bd4e160e79c504926bccf30b3603f1b4fd4e78534a01547b71a3451803c08921&ipo=images">
+    <button class="button-add" data-title="Hat" data-description="This is hat" data-price="7.14" data-url="https://example.com/hat" data-imageSrc="https://cdn.shopify.com/s/files/1/1045/5130/products/DB-GD_2000x2000.jpg?v=1544714533">
     Add to Cart
     </button>
 </body>
