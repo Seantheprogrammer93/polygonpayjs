@@ -18,7 +18,7 @@
 
 3) The last step is to include the following `<div>` tag in the `<body>` of your HTML document.
 ```html
-<div id="polygonpay" class="polygonpayjs" data-api-key="<YOUR_API_KEY>"></div>
+<div class="polygonpayjs"></div>
 ```
 *Note: Replace `<YOUR_API_KEY>` with your PolygonPay API key, it can be found [here](https://docs.polygonpay.com/dashboard). Also, we strongly recommend using the hidden attributte in your `<div>` for security purposes.*
 
@@ -38,16 +38,14 @@ After you complete steps 1, 2 and 3 your HTML document should look like the exam
 </head>
 
 <body>
-    <div id="polygonpay" class="polygonpayjs" data-api-key="1"></div>
-
-    <button class="polygonpay-add-item" data-title="Hat" data-description="This is a hat" data-price="15.79"
-        data-url="https://example.com/hat" data-imageSrc="https://example.com/hat.png">
-        Add to Cart
+    <div class="polygonpayjs"></div>
+    
+    <button class="button-add" data-title="Shirt" data-description="This is a shirt" data-price="3.75" data-url="https://example.com/shirt" data-imageSrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdemo.wpstartersites.com%2Fcordero-demo%2Fwp-content%2Fuploads%2Fsites%2F12%2F2020%2F06%2Fmens-tee-blue.jpg&f=1&nofb=1&ipt=3beb7e4030c314bdbafe6cfd288aaadd051db5111832d3023afbf9fcf781c4ed&ipo=images">
+    Add to Cart
     </button>
 
-    <button class="polygonpay-add-item" data-title="Shirt" data-description="This is a shirt" data-price="18.79"
-        data-url="https://example.com/shirt" data-imageSrc="https://example.com/shirt.png">
-        Add to Cart
+    <button class="button-add" data-title="Large Dildo" data-description="This is a DILDO" data-price="1000" data-url="https://example.com/shirt" data-imageSrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.vg247.com%2Fcurrent%2F2011%2F11%2Fsaintsrowthethird-penetrator.jpg&f=1&nofb=1&ipt=bd4e160e79c504926bccf30b3603f1b4fd4e78534a01547b71a3451803c08921&ipo=images">
+    Add to Cart
     </button>
 </body>
 
